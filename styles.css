@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.appbar {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.appbar h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.appbar nav {
+    display: flex;
+    gap: 20px;
+}
+.appbar nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.appbar nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.appbar {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.appbar h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.appbar nav {
+    display: flex;
+    gap: 20px;
+}
+.appbar nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.appbar nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 60px); /* Adjust for appbar height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+.hero-content h1 {
+    color: #ffd700;
+    font-size: 48px;
+    margin: 0;
+}
+.hero-content p {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
